@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-family: "Plus Jakarta Sans", sans-serif;
+  --color-bg-primary: #5CE5B4;
+  --color-text-primary: #FFFFFF;
+  --color-text-second: #666666;
+  --breakpoint-xs: 20rem;
+}
+
+@layer base {
+  body {
+    box-sizing: border-box;
+    font-family: var(--font-family);
+    background: var(--color-bg-primary);
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@layer components {
+
+  .container {
+    padding: 0 20px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .button {
+    color: var(--color-text-primary);
+    opacity: 0.7;
+    cursor: pointer;
+    transition: opacity .2s ease;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  .footer-container {
+    @apply w-full min-h-25 flex items-center justify-between p-10 gap-3 max-lg:justify-center max-lg:flex-col;
+  }
+}
+
+@layer utilities {
+  .shadow-bottom {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px;
+  }
+
+  .shadow-top {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -1px 2px 0px;
+  }
+
+  .shadow-box {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 6px;
+  }
+
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hover-underline {
+    overflow: hidden;
+    transition: .3s ease;
+
+    &:hover {
+      text-decoration-line: underline;
+      text-decoration-thickness: 1.5px;
+    }
+  }
+}
+
