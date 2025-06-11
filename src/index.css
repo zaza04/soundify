@@ -75,5 +75,9 @@
       text-decoration-thickness: 1.5px;
     }
   }
+
+  .hovering {
+    @apply opacity-0 transition-opacity duration-200 ease-linear pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto;
+  }
 }
 
