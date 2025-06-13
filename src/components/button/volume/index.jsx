@@ -6,6 +6,7 @@ function VolumeControl(props) {
   const [isDragging, setIsDragging] = useState(false);
   const sliderRef = useRef(null);
 
+
   // Hàm cập nhật volume dựa trên vị trí con trỏ chuột
   const handleVolumeUpdate = useCallback((e) => {
     const slider = sliderRef.current;
@@ -19,11 +20,13 @@ function VolumeControl(props) {
     }
   }, [onVolumeChange]);
 
+
   // Bắt đầu quá trình kéo/click chuột để điều chỉnh giá trị âm thanh 
   const handleStartDrag = useCallback((e) => {
     setIsDragging(true);
     handleVolumeUpdate(e); // Cập nhật ngay khi nhấn chuột
   }, [handleVolumeUpdate]);
+
   
   // Lắng nghe sự kiện kéo và thả chuột trên toàn bộ trang
   useEffect(() => {
@@ -35,7 +38,7 @@ function VolumeControl(props) {
       document.addEventListener('mouseup', handleStopDrag);
     }
 
-    return () => {
+    return() => {
       document.removeEventListener('mousemove', handleDrag);
       document.removeEventListener('mouseup', handleStopDrag);
     }

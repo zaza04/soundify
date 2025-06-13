@@ -4,7 +4,7 @@ function Footer() {
   return (
     <>
       <div className="footer-container shadow-top">
-        <div className="flex-center gap-3 text-sm font-normal flex-wrap">
+        <div className="flex-center gap-3 font-normal flex-wrap">
           <p className="flex-center gap-x-2">
             <span>&copy; 2025</span>{" "}
             <span className="font-bold">Soundify.com</span>
@@ -21,13 +21,13 @@ function Footer() {
           </Link>
         </div>
         <div>
-          <ul className="flex-center gap-3 text-sm font-normal flex-wrap">
-            <li className="hover-underline"><Link to="/features">Features</Link></li>
-            <li className="hover-underline"><Link to="/app">App</Link></li>
-            <li className="hover-underline"><Link to="/blog">Blog</Link></li>
-            <li className="hover-underline"><Link to="/how-it-work">How It Work</Link></li>
-            <li className="hover-underline"><Link to="/contact">Contact</Link></li>
-            <li className="hover-underline"><Link to="/support">Support</Link></li>
+          <ul className="flex-center gap-3 font-normal flex-wrap">
+            <li className="hover-underline"><Link to="/features"><p>Features</p></Link></li>
+            <li className="hover-underline"><Link to="/blog"><p>Blog</p></Link></li>
+            <li className="hover-underline"><Link to="/how-it-work"><p>How It Work</p></Link></li>
+            <li className="hover-underline"><Link to="/app"><p>App</p></Link></li>
+            <li className="hover-underline"><Link to="/contact"><p>Contact</p></Link></li>
+            <li className="hover-underline"><Link to="/support"><p>Support</p></Link></li>
             <li className="">
               <a href="#facebook">
                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 14 14"><g fill="none" fillRule="evenodd"><path fill="currentColor" d="M8.655 14H5.55V7H4V4.586h1.551V3.139C5.551 1.17 6.426 0 8.915 0h2.07v2.413H9.692c-.968 0-1.032.337-1.032.966l-.005 1.208H11l-.275 2.412h-2.07V14z"></path><path d="M0 0h14v14H0z"></path></g></svg>
