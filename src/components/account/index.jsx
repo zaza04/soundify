@@ -48,33 +48,35 @@ function UserAccount() {
             </g>
           </svg>
         </span>
+
+        {/* MODAL  */}
         <div
           className={
-            "absolute bg-white top-10 right-0 w-50 h-60 py-5 rounded-xl text-text-second transition-all duration-300 ease-in-out shadow-sm shadow-gray-50 " +
-            (openModal ? "translate-y-0 opacity-100" : "-translate-y-1 opacity-0")
+            "absolute bg-white top-10 right-0 w-50 h-auto p-2 rounded-xl text-text-second transition-all duration-300 ease-in-out shadow-box " +
+            (openModal ? "translate-y-0 opacity-100 pointer-events-auto" : "-translate-y-1 opacity-0 pointer-events-none")
           }
         >
           <div className="flex justify-between gap-y-3 flex-col">
             <ul>
-              <li className="cursor-pointer py-3 px-5 hover:bg-gray-100">
+              <li>
                 <Link to="/account">
-                  <p className="font-medium">Account</p>
+                  <p className="hover-selector">Account</p>
                 </Link>
               </li>
-              <li className="cursor-pointer py-3 px-5 hover:bg-gray-100">
+              <li >
                 <Link to="/support" target="_blank">
-                  <p className="font-medium">Support center</p>
+                  <p className="hover-selector">Support center</p>
                 </Link>
               </li>
-              <li className="cursor-pointer py-3 px-5 hover:bg-gray-100">
+              <li>
                 <Link to="/contact" target="_blank">
-                  <p className="font-medium">Contact us</p>
+                  <p className="hover-selector">Contact us</p>
                 </Link>
               </li>
             </ul>
             <div className="border-1 border-gray-100 w-40 mx-auto"></div>
-            <div className="cursor-pointer py-3 px-5 hover:bg-gray-50 text-red-500">
-              <p className="font-medium">Sign out</p>
+            <div>
+              <p className="hover-selector text-red-500">Sign out</p>
             </div>
           </div>
         </div>
