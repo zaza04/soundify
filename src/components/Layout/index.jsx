@@ -1,11 +1,20 @@
 import Header from "../Header";
 import Footer from "../Footer";
 import { Outlet } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 function LayoutDefault() {
+  const { currentTheme, mixTheme } = useSelector((state) => state.theme);
+  const autoBackground = "w-screen h-screen fixed top-0 left-0 -z-1 animate-mixed";
+
+  console.log({mixTheme});
+
   return (
     <>
-      <div className="min-h-screen flex flex-col text-text-primary">
+      <div
+        style={ mixTheme ? {} : {backgroundColor: currentTheme.colorCode} }
+        className={"min-h-screen flex flex-col text-text-primary " + (mixTheme ? (autoBackground) : "")}
+      >
         <Header />
         <main className="flex-1">
           <Outlet />
@@ -13,7 +22,7 @@ function LayoutDefault() {
         <Footer />
       </div>
     </>
-  )
+  );
 }
 
 export default LayoutDefault;
