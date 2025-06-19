@@ -1,4 +1,4 @@
-import LayoutDefault from "../components/Layout";
+import LayoutPlaylist from "../components/Layout/LayoutPlaylist";
 import Home from "../pages/Home";
 import Error404 from "../pages/Error404";
 import Impressum from "../pages/Impressum";
@@ -11,7 +11,7 @@ import Todos from "../pages/Todos";
 const routes = [
   {
     path: "/",
-    element: <LayoutDefault />,
+    element: <LayoutPlaylist />,
     children: [
       {
         path: "/",

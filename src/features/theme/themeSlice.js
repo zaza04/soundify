@@ -20,6 +20,11 @@ const themes = [
     id: 4,
     name: "Brown",
     colorCode: "#8A784E"
+  },
+  {
+    id: 5,
+    name: "Dark Green",
+    colorCode: "#626F47"
   }
 ];
 

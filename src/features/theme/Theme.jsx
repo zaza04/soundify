@@ -30,11 +30,12 @@ function ThemeMenu() {
   }, [openModal]);
   
   // thay đổi theme theo id
-  const handleChangeTheme = (themeId) => {
+  let handleChangeTheme = (themeId) => {
     if (currentTheme.id !== themeId) {
       dispatch(setTheme(themeId));
     } 
   };
+
   
   // set theme tự động
   const toggleAutoTheme = () => {

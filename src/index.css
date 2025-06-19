@@ -3,42 +3,33 @@
 
 @theme {
   --font-family: "Plus Jakarta Sans", sans-serif;
-  --color-bg-primary: #5CE5B4;
   --color-text-primary: #FFFFFF;
   --color-text-second: #666666;
   --breakpoint-xs: 20rem;
 
   --animate-mixed: colorCycle 60s ease-in-out infinite;
   @keyframes colorCycle {
-    0% {
+    0%, 15% {
       background-color: rgb(92, 229, 180); /* Green */
     }
-    16% {
-      background-color: rgb(92, 229, 180); /* Green. Tạo khoảng dừng */
-    }
 
     /*  */
-    25% {
+    20%, 35% {
       background-color: rgb(54, 116, 181); /* Blue */
     }
-    40% {
-      background-color: rgb(54, 116, 181); /* Blue. Tạo khoảng dừng */
-    }
 
     /*  */
-    50% {
+    40%, 55% {
       background-color: rgb(137, 138, 196); /* Purple */
     }
-    62% {
-      background-color: rgb(137, 138, 196); /* Purple. Tạo khoảng dừng */
-    }
 
     /*  */
-    75% {
-      background-color: rgb(138, 120, 78); /* Brown */
+    60% ,75% {
+      background-color: rgb(138, 120, 78); /* Brown*/
     }
-    90% {
-      background-color: rgb(138, 120, 78); /* Brown. Tạo khoảng dừng */
+
+    80% ,95% {
+      background-color: rgb(98, 111, 71);/* Dark Green */
     }
 
     /*  */
@@ -51,8 +42,9 @@
 @layer base {
   body {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-family: var(--font-family);
-    background: var(--color-bg-primary);
     user-select: none;
   }
 
@@ -99,33 +91,6 @@
 }
 
 @layer utilities {
-  .auto-background {
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    animation: colorCycle 30s ease-in-out infinite;
-
-    @keyframes colorCycle {
-      0% {
-        background-color: rgb(92, 229, 180); /* Green */
-      }
-      25% {
-        background-color: rgb(54, 116, 181); /* Blue */
-      }
-      50% {
-        background-color: rgb(137, 138, 196); /* Purple */
-      }
-      75% {
-        background-color: rgb(138, 120, 78); /* Brown */
-      }
-      100% {
-        background-color: rgb(92, 229, 180); /* Quay về màu ban đầu để vòng lặp liền mạch */
-      }
-    }
-  }
 
   .shadow-bottom {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px;
