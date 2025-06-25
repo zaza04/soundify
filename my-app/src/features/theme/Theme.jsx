@@ -41,8 +41,6 @@ function ThemeMenu() {
   const toggleAutoTheme = () => {
     dispatch(autoTheme(true));
   }
-
-  // console.log(currentTheme);
   
 
   return (
