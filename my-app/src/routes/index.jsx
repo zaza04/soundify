@@ -7,6 +7,9 @@ import Blog from "../pages/Blog";
 import Features from "../pages/Features";
 import HowItWork from "../pages/HowItWork";
 import Todos from "../pages/Todos";
+import Playlists from "../pages/Home/Playlists";
+import Favorites from "../pages/Home/Favorites";
+import { Navigate } from "react-router-dom";
 
 const routes = [
   {
@@ -15,7 +18,21 @@ const routes = [
     children: [
       {
         path: "/",
-        element: <Home />
+        element: <Home />,
+        children: [
+          {
+            index: true,
+            element: <Navigate to="/playlists" replace />,
+          },
+          {
+            path: "playlists",
+            element: <Playlists />,
+          },
+          {
+            path: "favorites",
+            element: <Favorites />,
+          }
+        ]
       },
       {
         path: "terms",

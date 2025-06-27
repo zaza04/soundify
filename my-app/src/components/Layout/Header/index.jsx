@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import VolumeControl from "../button/volume";
-import UserAccount from "../account";
-import ThemeMenu from "../../features/theme/Theme";
-import { MuteSpeakerIcon, SpeakerIcon, TodosIcon } from "../icon";
+import VolumeControl from "../../button/volume";
+import UserAccount from "../../account";
+import ThemeMenu from "../../../features/theme/Theme";
+import { MuteSpeakerIcon, SpeakerIcon, TodosIcon } from "../../icon";
 
 function Header() {
   // mặc định volume là full (100%)

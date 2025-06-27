@@ -39,7 +39,7 @@ function UserAccount() {
         {/* MODAL  */}
         <div
           className={
-            "absolute bg-white top-10 right-0 w-50 h-auto p-2 rounded-xl text-text-second transition-all duration-300 ease-in-out shadow-box " +
+            "modal_container shadow-box w-50 " +
             (openModal ? "translate-y-0 opacity-100 pointer-events-auto" : "-translate-y-1 opacity-0 pointer-events-none")
           }
         >

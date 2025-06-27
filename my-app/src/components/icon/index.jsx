@@ -7,3 +7,6 @@ export * from './userIcon';
 export * from './fbIcon';
 export * from './twitterIcon';
 export * from './checkedIcon';
+export * from './oscillationIcon';
+export * from './shuffleIcon';
+export * from './threeDotsIcon';

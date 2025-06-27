@@ -58,7 +58,7 @@ function ThemeMenu() {
         {/* MODAL */}
         <div
           className={
-            "absolute top-10 right-0 bg-white w-52 h-auto p-2 text-text-second shadow-box rounded-xl pointer-events-auto transition-all duration-300 ease-in-out " +
+            "modal_container shadow-box w-50 " +
             (openModal
               ? "translate-y-0 opacity-100"
               : "pointer-events-none -translate-y-1 opacity-0")

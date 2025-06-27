@@ -1,11 +1,17 @@
+import { Outlet } from "react-router-dom";
+import NavHero from "./NavHero";
+
 function Home() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-        Sound for Workspace!
-      </h1>
+      <div className="Nav_Hero container_hero">
+        <NavHero />
+        <div className="mt-5">
+          <Outlet />
+        </div>
+      </div>
     </>
-  )
+  );
 }
 
 export default Home;

@@ -1,5 +1,5 @@
-import Header from "../Header";
-import Footer from "../Footer";
+import Header from "./Header";
+import Footer from "./Footer";
 import { Outlet } from "react-router-dom";
 import { useSelector } from "react-redux";
 
@@ -19,7 +19,7 @@ function LayoutPlaylist() {
         }
       >
         <Header />
-        <main className="flex-1">
+        <main className="flex-1 pt-16">
           <Outlet />
         </main>
         <Footer />

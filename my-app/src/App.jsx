@@ -1,9 +1,9 @@
-import AllRouter from "./components/AllRouter"
+import RootRouter from "./components/RootRouter";
 
 function App() {
   return (
     <>
-      <AllRouter />
+      <RootRouter />
     </>
   )
 }
