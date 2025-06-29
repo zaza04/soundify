@@ -3,180 +3,180 @@
     {
       "subtitle": "Thunder",
       "description": "Soothing thunder rumbles for relaxation or focus, connecting to nature, reducing stress, and aiding sleep. Designed to be calm, avoiding sudden claps.",
-      "svgLink": "https://res.cloudinary.com/dxj2dozip/image/upload/v1749475299/soundify_data/noises/thunder/icon.svg",
+      "svgLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/thunder/icon.svg",
       "category": "THUNDER",
-      "audioLink": "https://res.cloudinary.com/dxj2dozip/video/upload/v1749475303/soundify_data/noises/thunder/sound.ogg",
+      "audioLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/thunder/sound.ogg",
       "slug": "thunder",
       "id": "s1"
     },
     {
       "subtitle": "Storm",
       "description": "Elemental sounds of rain, thunder, and wind for comfort, memory recall, and focus. Connects to nature, creating a cozy, safe ambiance.",
-      "svgLink": "https://res.cloudinary.com/dxj2dozip/image/upload/v1749475284/soundify_data/noises/storm/icon.svg",
+      "svgLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/storm/icon.svg",
       "category": "STORM",
-      "audioLink": "https://res.cloudinary.com/dxj2dozip/video/upload/v1749475290/soundify_data/noises/storm/sound.ogg",
+      "audioLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/storm/sound.ogg",
       "slug": "storm",
       "id": "s2"
     },
     {
       "subtitle": "Log Fire",
       "description": "Primal sound of crackling fire, evoking warmth, safety, and community. Aids focus, relaxation, and emotional connection. Deeper and warmer than rain sounds.",
-      "svgLink": "https://res.cloudinary.com/dxj2dozip/image/upload/v1749475253/soundify_data/noises/fire/icon.svg",
+      "svgLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/fire/icon.svg",
       "category": "FIRE",
-      "audioLink": "https://res.cloudinary.com/dxj2dozip/video/upload/v1749475256/soundify_data/noises/fire/sound.ogg",
+      "audioLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/fire/sound.ogg",
       "slug": "fire",
       "id": "s3"
     },
     {
       "subtitle": "Rain on Roof",
       "description": "Unique sound of rain hitting a tin roof, offering diverse listening. Combine with jungle sounds for an immersive tropical rain experience.",
-      "svgLink": "https://res.cloudinary.com/dxj2dozip/image/upload/v1749475273/soundify_data/noises/rainonroof/icon.svg",
+      "svgLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/rainonroof/icon.svg",
       "category": "RAINONROOF",
-      "audioLink": "https://res.cloudinary.com/dxj2dozip/video/upload/v1749475276/soundify_data/noises/rainonroof/sound.ogg",
+      "audioLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/rainonroof/sound.ogg",
       "slug": "rainonroof",
       "id": "s4"
     },
     {
       "subtitle": "White Noise",
       "description": "White noise (all frequencies) for hyperacusis, tinnitus, masking office noise, or sleep. Explore pink or brown noise for different sound qualities.",
-      "svgLink": "https://res.cloudinary.com/dxj2dozip/image/upload/v1749475317/soundify_data/noises/white/icon.svg",
+      "svgLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/white/icon.svg",
       "category": "WHITE",
-      "audioLink": "https://res.cloudinary.com/dxj2dozip/video/upload/v1749475320/soundify_data/noises/white/sound.ogg",
+      "audioLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/white/sound.ogg",
       "slug": "white",
       "id": "s5"
     },
     {
       "subtitle": "Brown Noise",
       "description": "Mimics popular 'dark brown' noise playlists with superior, continuous, customizable sound. Better for relaxation and noise blocking than typical streaming tracks.",
-      "svgLink": "https://res.cloudinary.com/dxj2dozip/image/upload/v1749475233/soundify_data/noises/brown/icon.svg",
+      "svgLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/brown/icon.svg",
       "category": "BROWN",
-      "audioLink": "https://res.cloudinary.com/dxj2dozip/video/upload/v1749475242/soundify_data/noises/brown/sound.ogg",
+      "audioLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/brown/sound.ogg",
       "slug": "brown",
       "id": "s6"
     },
     {
       "subtitle": "Wave of Sea",
       "description": "Irish coastal experience with ocean waves, wind, and rain. A powerful, natural sound blocker, less fatiguing than classic white noise.",
-      "svgLink": "https://res.cloudinary.com/dxj2dozip/image/upload/v1749475280/soundify_data/noises/sea/icon.svg",
+      "svgLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/sea/icon.svg",
       "category": "SEA",
-      "audioLink": "https://res.cloudinary.com/dxj2dozip/video/upload/v1749475283/soundify_data/noises/sea/sound.ogg",
+      "audioLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/sea/sound.ogg",
       "slug": "sea",
       "id": "s7"
     },
     {
       "subtitle": "Forest",
       "description": "Sounds from Poland's Bieszczady National Park, a primeval European forest. Features birds, animals, and natural elements recorded in an untouched environment.",
-      "svgLink": "https://res.cloudinary.com/dxj2dozip/image/upload/v1749475257/soundify_data/noises/forest/icon.svg",
+      "svgLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/forest/icon.svg",
       "category": "FOREST",
-      "audioLink": "https://res.cloudinary.com/dxj2dozip/video/upload/v1749475260/soundify_data/noises/forest/sound.ogg",
+      "audioLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/forest/sound.ogg",
       "slug": "forest",
       "id": "s8"
     },
     {
       "subtitle": "Stream",
       "description": "Immersive sounds from Ouareau Regional Park, Quebec, captured using drop-rig field recording. High-quality, undisturbed natural forest ambiance.",
-      "svgLink": "https://res.cloudinary.com/dxj2dozip/image/upload/v1749475291/soundify_data/noises/stream/icon.svg",
+      "svgLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/stream/icon.svg",
       "category": "STREAM",
-      "audioLink": "https://res.cloudinary.com/dxj2dozip/video/upload/v1749475294/soundify_data/noises/stream/sound.ogg",
+      "audioLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/stream/sound.ogg",
       "slug": "stream",
       "id": "s9"
     },
     {
       "subtitle": "Coffee-Shop",
       "description": "Coffee shop background noise to boost creativity and mask distracting conversations. Speech-like babble without clear words to maintain focus.",
-      "svgLink": "https://res.cloudinary.com/dxj2dozip/image/upload/v1749475243/soundify_data/noises/cafe/icon.svg",
+      "svgLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/cafe/icon.svg",
       "category": "CAFE",
-      "audioLink": "https://res.cloudinary.com/dxj2dozip/video/upload/v1749475248/soundify_data/noises/cafe/sound.ogg",
+      "audioLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/cafe/sound.ogg",
       "slug": "cafe",
       "id": "s10"
     },
     {
       "subtitle": "Fan",
       "description": "Steady, low whir of a fan or AC, soothing and muting sudden noises. Virtual fan with customizable sound frequencies.",
-      "svgLink": "https://res.cloudinary.com/dxj2dozip/image/upload/v1749475249/soundify_data/noises/fan/icon.svg",
+      "svgLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/fan/icon.svg",
       "category": "FAN",
-      "audioLink": "https://res.cloudinary.com/dxj2dozip/video/upload/v1749475252/soundify_data/noises/fan/sound.ogg",
+      "audioLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/fan/sound.ogg",
       "slug": "fan",
       "id": "s11"
     },
     {
       "subtitle": "Office",
       "description": "Vintage '90s office sounds with floppy disks and inkjet printers. Helps create a familiar, productive environment for remote work and blocks home noises.",
-      "svgLink": "https://res.cloudinary.com/dxj2dozip/image/upload/v1749475266/soundify_data/noises/office/icon.svg",
+      "svgLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/office/icon.svg",
       "category": "OFFICE",
-      "audioLink": "https://res.cloudinary.com/dxj2dozip/video/upload/v1749475268/soundify_data/noises/office/sound.ogg",
+      "audioLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/office/sound.ogg",
       "slug": "office",
       "id": "s12"
     },
     {
       "subtitle": "Rain",
       "description": "This soundscape captures that soothing sound that reminds us of camping trips and time spent in nature, without the inconvenience of getting wet!",
-      "svgLink": "https://res.cloudinary.com/dxj2dozip/image/upload/v1749475270/soundify_data/noises/rain/icon.svg",
+      "svgLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/rain/icon.svg",
       "category": "RAIN",
-      "audioLink": "https://res.cloudinary.com/dxj2dozip/video/upload/v1749475272/soundify_data/noises/rain/sound.ogg",
+      "audioLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/rain/sound.ogg",
       "slug": "rain",
       "id": "s13"
     },
     {
       "subtitle": "Leaves",
       "description": "This soundscape captures that soothing sound that reminds us of camping trips and time spent in nature, without the inconvenience of getting wet!",
-      "svgLink": "https://res.cloudinary.com/dxj2dozip/image/upload/v1749475261/soundify_data/noises/leaves/icon.svg",
+      "svgLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/leaves/icon.svg",
       "category": "LEAVES",
-      "audioLink": "https://res.cloudinary.com/dxj2dozip/video/upload/v1749475264/soundify_data/noises/leaves/sound.ogg",
+      "audioLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/leaves/sound.ogg",
       "slug": "leaves",
       "id": "s14"
     },
     {
       "subtitle": "Wind",
       "description": "This soundscape captures that soothing sound that reminds us of camping trips and time spent in nature, without the inconvenience of getting wet!",
-      "svgLink": "https://res.cloudinary.com/dxj2dozip/image/upload/v1749475321/soundify_data/noises/wind/icon.svg",
+      "svgLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/wind/icon.svg",
       "category": "WIND",
-      "audioLink": "https://res.cloudinary.com/dxj2dozip/video/upload/v1749475324/soundify_data/noises/wind/sound.ogg",
+      "audioLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/wind/sound.ogg",
       "slug": "wind",
       "id": "s15"
     },
     {
       "subtitle": "Water",
       "description": "This soundscape captures that soothing sound that reminds us of camping trips and time spent in nature, without the inconvenience of getting wet!",
-      "svgLink": "https://res.cloudinary.com/dxj2dozip/image/upload/v1749475308/soundify_data/noises/water/icon.svg",
+      "svgLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/water/icon.svg",
       "category": "WATER",
-      "audioLink": "https://res.cloudinary.com/dxj2dozip/video/upload/v1749475312/soundify_data/noises/water/sound.ogg",
+      "audioLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/water/sound.ogg",
       "slug": "water",
       "id": "s16"
     },
     {
       "subtitle": "Waterfall",
       "description": "This soundscape captures that soothing sound that reminds us of camping trips and time spent in nature, without the inconvenience of getting wet!",
-      "svgLink": "https://res.cloudinary.com/dxj2dozip/image/upload/v1749475313/soundify_data/noises/waterfall/icon.svg",
+      "svgLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/waterfall/icon.svg",
       "category": "WATERFALL",
-      "audioLink": "https://res.cloudinary.com/dxj2dozip/video/upload/v1749475316/soundify_data/noises/waterfall/sound.ogg",
+      "audioLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/waterfall/sound.ogg",
       "slug": "waterfall",
       "id": "s17"
     },
     {
       "subtitle": "Summer Forest",
       "description": "This soundscape captures that soothing sound that reminds us of camping trips and time spent in nature, without the inconvenience of getting wet!",
-      "svgLink": "https://res.cloudinary.com/dxj2dozip/image/upload/v1749475295/soundify_data/noises/summerforest/icon.svg",
+      "svgLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/summerforest/icon.svg",
       "category": "SUMMERFOREST",
-      "audioLink": "https://res.cloudinary.com/dxj2dozip/video/upload/v1749475298/soundify_data/noises/summerforest/sound.ogg",
+      "audioLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/summerforest/sound.ogg",
       "slug": "summerforest",
       "id": "s18"
     },
     {
       "subtitle": "Rain on Tent",
       "description": "This soundscape captures that soothing sound that reminds us of camping trips and time spent in nature, without the inconvenience of getting wet!",
-      "svgLink": "https://res.cloudinary.com/dxj2dozip/image/upload/v1749475277/soundify_data/noises/rainontent/icon.svg",
+      "svgLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/rainontent/icon.svg",
       "category": "RAINONTENT",
-      "audioLink": "https://res.cloudinary.com/dxj2dozip/video/upload/v1749475279/soundify_data/noises/rainontent/sound.ogg",
+      "audioLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/rainontent/sound.ogg",
       "slug": "rainontent",
       "id": "s19"
     },
     {
       "subtitle": "Train",
       "description": "This soundscape captures that soothing sound that reminds us of camping trips and time spent in nature, without the inconvenience of getting wet!",
-      "svgLink": "https://res.cloudinary.com/dxj2dozip/image/upload/v1749475305/soundify_data/noises/train/icon.svg",
+      "svgLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/train/icon.svg",
       "category": "TRAIN",
-      "audioLink": "https://res.cloudinary.com/dxj2dozip/video/upload/v1749475307/soundify_data/noises/train/sound.ogg",
+      "audioLink": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/noises/train/sound.ogg",
       "slug": "train",
       "id": "s20"
     }
@@ -193,7 +193,7 @@
         { "soundId": "s3", "volume": 50 },
         { "soundId": "s2", "volume": 25 }
       ],
-      "icon": "https://res.cloudinary.com/dxj2dozip/image/upload/v1749475336/soundify_data/playlists/productivity/icon.svg" 
+      "icon": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/playlists/productivity/icon.svg" 
     },
     {
       "id": "p2",
@@ -206,7 +206,7 @@
         { "soundId": "s11", "volume": 25 },
         { "soundId": "s17", "volume": 25 }
       ],
-      "icon": "https://res.cloudinary.com/dxj2dozip/image/upload/v1749475339/soundify_data/playlists/relax/icon.svg"
+      "icon": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/playlists/relax/icon.svg"
     },
     {
       "id": "p3",
@@ -218,7 +218,7 @@
         { "soundId": "s16", "volume": 50 },
         { "soundId": "s15", "volume": 25 }
       ],
-      "icon": "https://res.cloudinary.com/dxj2dozip/image/upload/v1749475341/soundify_data/playlists/sleep/icon.svg"
+      "icon": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/playlists/sleep/icon.svg"
     },
     {
       "id": "p4",
@@ -230,7 +230,7 @@
         { "soundId": "s16", "volume": 50 },
         { "soundId": "s15", "volume": 25 }
       ],
-      "icon": "https://res.cloudinary.com/dxj2dozip/image/upload/v1749475333/soundify_data/playlists/noise-blocker/icon.svg"
+      "icon": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/playlists/noise-blocker/icon.svg"
     },
     {
       "id": "p5",
@@ -242,7 +242,7 @@
         { "soundId": "s16", "volume": 50 },
         { "soundId": "s15", "volume": 25 }
       ],
-      "icon": "https://res.cloudinary.com/dxj2dozip/image/upload/v1749475343/soundify_data/playlists/studying/icon.svg"
+      "icon": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/playlists/studying/icon.svg"
     },
     {
       "id": "p6",
@@ -254,7 +254,7 @@
         { "soundId": "s16", "volume": 50 },
         { "soundId": "s15", "volume": 25 }
       ],
-      "icon": "https://res.cloudinary.com/dxj2dozip/image/upload/v1749475330/soundify_data/playlists/motivation/icon.svg"
+      "icon": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/playlists/motivation/icon.svg"
     },
     {
       "id": "p7",
@@ -266,7 +266,7 @@
         { "soundId": "s16", "volume": 50 },
         { "soundId": "s15", "volume": 25 }
       ],
-      "icon": "https://res.cloudinary.com/dxj2dozip/image/upload/v1749475328/soundify_data/playlists/creative-thinking/icon.svg"
+      "icon": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/playlists/creative-thinking/icon.svg"
     },
     {
       "id": "p8",
@@ -278,7 +278,7 @@
         { "soundId": "s16", "volume": 50 },
         { "soundId": "s15", "volume": 25 }
       ],
-      "icon": "https://res.cloudinary.com/dxj2dozip/image/upload/v1749475326/soundify_data/playlists/beautiful-ambients/icon.svg"
+      "icon": "https://raw.githubusercontent.com/zaza04/soundify/refs/heads/main/database/data/playlists/beautiful-ambients/icon.svg"
     }
   ]
 }
