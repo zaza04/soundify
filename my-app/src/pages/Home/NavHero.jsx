@@ -1,12 +1,8 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import {
-  OscillationIcon,
   ShuffleIcon,
-  ThreeDotsIcon,
 } from "../../components/icon";
 import { useEffect, useRef, useState } from "react";
-import Playlists from "./Playlists";
-import Favorites from "./Favorites";
 
 function NavHero() {
   const [openModal, setOpenModal] = useState(false);
@@ -42,20 +38,9 @@ function NavHero() {
           </NavLink>
         </div>
         <div>
-          <ul className="hidden sm:inline-flex items-center gap-x-1"> 
+          <ul className="inline-flex items-center gap-x-1"> 
             <li>
               <p className="button_hero px-3 py-1">Save</p>
-            </li>
-            <li>
-              <p className="button_hero px-3 py-1">Clear</p>
-            </li>
-            <li>
-              <p className="button_hero px-3 py-1">Share</p>
-            </li>
-            <li>
-              <p className="button_hero p-2">
-                <OscillationIcon />
-              </p>
             </li>
             <li>
               <p className="button_hero p-2">
@@ -63,48 +48,6 @@ function NavHero() {
               </p>
             </li>
           </ul>
-          <div className="block sm:hidden relative" ref={modalRef}>
-            <div
-              className="button_hero p-2"
-              onClick={() => {
-                setOpenModal((prev) => !prev);
-              }}
-            >
-              <ThreeDotsIcon />
-            </div>
-            <div
-              className={
-                "modal_container shadow-box w-35 " +
-                (openModal
-                  ? "translate-y-0 opacity-100"
-                  : "pointer-events-none -translate-y-1 opacity-0")
-              }
-            >
-              <ul className="">
-                <li>
-                  <p className="font-medium px-1 py-2">Save</p>
-                </li>
-                <li>
-                  <p className="font-medium px-1 py-2">Clear</p>
-                </li>
-                <li>
-                  <p className="font-medium px-1 py-2">Share</p>
-                </li>
-                <li>
-                  <p className="font-medium px-1 py-2 flex justify-between items-center">
-                    Oscillation
-                    <OscillationIcon />
-                  </p>
-                </li>
-                <li>
-                  <p className="font-medium px-1 py-2 flex justify-between items-center">
-                    Shuffle
-                    <ShuffleIcon />
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
       </div>
     </>

@@ -12,27 +12,18 @@
     0%, 15% {
       background-color: rgb(92, 229, 180); /* Green */
     }
-
-    /*  */
     20%, 35% {
       background-color: rgb(54, 116, 181); /* Blue */
     }
-
-    /*  */
     40%, 55% {
       background-color: rgb(137, 138, 196); /* Purple */
     }
-
-    /*  */
     60% ,75% {
       background-color: rgb(138, 120, 78); /* Brown*/
     }
-
     80% ,95% {
       background-color: rgb(98, 111, 71);/* Dark Green */
     }
-
-    /*  */
     100% {
       background-color: rgb(92, 229, 180); /* Quay về màu ban đầu để vòng lặp liền mạch */
     }
@@ -81,7 +72,6 @@
     @media (width >= 20rem) {
       max-width: 380px;
     }
-    
     @media (width >= 40rem) {
       max-width: 540px;
     }
@@ -90,6 +80,18 @@
     }
     @media (width >= 64rem) {
       max-width: 960px;
+    }
+  }
+
+  .container_sound {
+    padding: 0; 
+    margin: 0 auto;
+
+    @media (width >= 20rem) {
+      max-width: 268px;
+    }
+    @media (width >= 40rem) {
+      max-width: 540px;
     }
   }
 

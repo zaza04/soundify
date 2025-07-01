@@ -1,5 +1,5 @@
-import Header from "./Header";
-import Footer from "./Footer";
+import Header from "./PlaylistHeader";
+import Footer from "./PlaylistFooter";
 import { Outlet } from "react-router-dom";
 import { useSelector } from "react-redux";
 
@@ -14,12 +14,12 @@ function LayoutPlaylist() {
         className={
           "min-h-screen flex flex-col text-text-primary " +
           (mixTheme
-            ? "w-screen h-screen fixed top-0 left-0 -z-1 animate-mixed"
+            ? "max-w-screen min-h-screen animate-mixed"
             : "bg-[var(--color-bg-primary)]")
         }
-      >
+      > 
         <Header />
-        <main className="flex-1 pt-16">
+        <main className="flex-1 pt-16 pb-16">
           <Outlet />
         </main>
         <Footer />

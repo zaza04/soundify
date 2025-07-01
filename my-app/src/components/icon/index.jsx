@@ -10,3 +10,5 @@ export * from './checkedIcon';
 export * from './oscillationIcon';
 export * from './shuffleIcon';
 export * from './threeDotsIcon';
+export * from './nextIcon';
+export * from './prevIcon';

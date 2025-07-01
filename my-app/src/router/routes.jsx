@@ -1,4 +1,4 @@
-import LayoutPlaylist from "../components/Layout/LayoutPlaylist";
+import LayoutPlaylist from "../components/Layouts/PlaylistLayout";
 import Home from "../pages/Home";
 import Error404 from "../pages/Error404";
 import Impressum from "../pages/Impressum";
